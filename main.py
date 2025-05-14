@@ -47,7 +47,7 @@ def generate_html_report(df, template_file, output_file):
         
         with open(output_file, 'w', encoding='utf-8') as f:
             f.write(html_content)
-        print(f"HTML report generated: {output_file}")
+        print(f"HTML report: {output_file}")
     except Exception as e:
         print(f"Error generating HTML report: {e}")
 
