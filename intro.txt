@@ -1,0 +1,2 @@
+Acesta este un proiect demonstrativ pentru evaluarea competențelor CI/CD.
+Conține un script Python și documentație de bază.
