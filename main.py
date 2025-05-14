@@ -13,7 +13,7 @@ def load_users(csv_file):
             raise ValueError("CSV must contain 'name', 'surname', 'age', 'group' columns")
         return df
     except FileNotFoundError:
-        print(f"Error: {csv_file} not found")
+        print(f"Error: The {csv_file} not found")
         exit(1)
     except Exception as e:
         print(f"Error loading CSV: {e}")
